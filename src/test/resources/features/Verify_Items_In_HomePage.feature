@@ -1,4 +1,4 @@
-@smoke
+
 Feature: Check Items in Home Page
   Scenario: User should be able to see Items in Home Page
     Given User is navigated successfully to Visionworks Home Page

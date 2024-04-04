@@ -5,6 +5,9 @@ import com.rappidtech.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class VerifyLogoDisplayHomePage {
     HomePage homePage= new HomePage();
@@ -17,6 +20,7 @@ public class VerifyLogoDisplayHomePage {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
     }
     @Then("User is able to see the company logo")
     public void user_is_able_to_see_the_company_logo() {

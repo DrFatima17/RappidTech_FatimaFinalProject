@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class HomePage {
@@ -45,6 +46,15 @@ public class HomePage {
 
     @FindBy(xpath = "//ul[@class='mega-menu-desktop-level-1-container nav navbar-nav occ-data-category row']")
     List<WebElement> listOfItemLinks;
+
+    @FindBy(xpath = "//div[@id='all-contactLenses']")
+    List<WebElement> listOfItemsInContactLensesDropBox;
+
+    @FindBy(xpath = "//li[@id='sunglasses-women']")
+    WebElement womensSunglassesLink;
+
+    @FindBy(xpath = "//div[@id='glassesDeptA']/h1")
+    WebElement womensSunglassesLabelInWomenSunGlassesPage;
     //=======================methods/functions===================================
 
     /**
@@ -72,11 +82,35 @@ public class HomePage {
     public ArrayList<String> getListOfItemLinks(){
         logger.info("Getting the items from home page");
         ArrayList<String> inventory = new ArrayList<>();
-        for(WebElement item : listOfItemLinks){
-            logger.info("Items are: {" + item.getText() +"} ");
-            inventory.add(item.getText());
+        for(String item : Arrays.asList(listOfItemLinks.get(0).getText().split("\n"))){
+            logger.info("Items are: {\n" + item +"\n} ");
+            inventory.add(item);
         }
         return inventory;
+    }
+    public void clickOnContactLensesLinkOnHomePage(){
+        logger.info("Clicking on contact lenses link on Home Page");
+        contactlensesLink.click();
+    }
+
+    public ArrayList<String> getListOfItemsInContactLensesDropBox(){
+        logger.info("Getting the items from contact lenses drop box");
+        ArrayList<String> inventory = new ArrayList<>();
+        for(String item : Arrays.asList(listOfItemsInContactLensesDropBox.get(0).getText().split("\n"))){
+            logger.info("Items are: {\n" + item + "\n} ");
+            inventory.add(item);
+        }
+        return inventory;
+    }
+
+    public void clickOnSunglassesLinkOnHomePage(){
+        logger.info("Clicking on sunglasses link on Home Page");
+        sunglassesLink.click();
+
+    }
+    public void clickOnWomensSunGlassesLinkOnHomePage(){
+        logger.info("Clicking on women's sunglasses link on Home Page");
+        womensSunglassesLink.click();
     }
 
 

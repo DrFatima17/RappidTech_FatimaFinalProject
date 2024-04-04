@@ -206,3 +206,194 @@ BRANDS
 LENSES
 OFFERS} 
 2024-04-04T14:22:52,985 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T14:52:08,249 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T14:52:08,253 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T14:52:08,254 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T14:52:08,254 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T14:52:17,498 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T14:52:17,498 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T14:52:28,763 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T14:59:00,789 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T14:59:00,796 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T14:59:00,796 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T14:59:00,796 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T14:59:09,725 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T14:59:09,725 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T14:59:21,430 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T14:59:21,431 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T14:59:27,334 [main] INFO  (HomePage.java:89) - Getting the items from contact lenses drop box
+2024-04-04T14:59:27,379 [main] INFO  (HomePage.java:92) - Items are: {ACUVUE
+AIR OPTIX
+AQUATECH
+DAILIES
+PROCLEAR
+PUREVISION
+Rebates
+Contact Lenses} 
+2024-04-04T14:59:27,426 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T14:59:27,426 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T14:59:32,575 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T15:01:07,313 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T15:01:07,318 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T15:01:07,318 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T15:01:07,319 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T15:01:16,190 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T15:01:16,191 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T15:01:27,114 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T15:01:27,114 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T15:01:33,016 [main] INFO  (HomePage.java:89) - Getting the items from contact lenses drop box
+2024-04-04T15:01:33,057 [main] INFO  (HomePage.java:92) - Items are: {ACUVUE
+AIR OPTIX
+AQUATECH
+DAILIES
+PROCLEAR
+PUREVISION
+Rebates
+Contact Lenses} 
+2024-04-04T15:01:33,104 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T15:01:33,105 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T15:01:38,257 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T16:33:08,669 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T16:33:08,675 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T16:33:08,675 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T16:33:08,675 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T16:33:18,219 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T16:33:18,220 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T16:33:29,064 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T16:33:29,065 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T16:33:34,090 [main] INFO  (HomePage.java:92) - Clicking on contact lenses link on Home Page
+2024-04-04T16:33:35,012 [main] INFO  (HomePage.java:97) - Getting the items from contact lenses drop box
+2024-04-04T16:33:35,056 [main] INFO  (HomePage.java:100) - Items are: {
+ACUVUE
+} 
+2024-04-04T16:33:35,057 [main] INFO  (HomePage.java:100) - Items are: {
+AIR OPTIX
+} 
+2024-04-04T16:33:35,057 [main] INFO  (HomePage.java:100) - Items are: {
+AQUATECH
+} 
+2024-04-04T16:33:35,057 [main] INFO  (HomePage.java:100) - Items are: {
+DAILIES
+} 
+2024-04-04T16:33:35,057 [main] INFO  (HomePage.java:100) - Items are: {
+PROCLEAR
+} 
+2024-04-04T16:33:35,057 [main] INFO  (HomePage.java:100) - Items are: {
+PUREVISION
+} 
+2024-04-04T16:33:35,057 [main] INFO  (HomePage.java:100) - Items are: {
+Rebates
+} 
+2024-04-04T16:33:35,058 [main] INFO  (HomePage.java:100) - Items are: {
+Contact Lenses
+} 
+2024-04-04T16:33:35,064 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T16:34:20,426 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T16:34:20,432 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T16:34:20,433 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T16:34:20,433 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T16:34:29,157 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T16:34:29,158 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T16:34:40,598 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T16:34:40,598 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T16:34:45,614 [main] INFO  (HomePage.java:83) - Getting the items from home page
+2024-04-04T16:34:45,663 [main] INFO  (HomePage.java:86) - Items are: {
+GLASSES
+} 
+2024-04-04T16:34:45,663 [main] INFO  (HomePage.java:86) - Items are: {
+SUNGLASSES
+} 
+2024-04-04T16:34:45,663 [main] INFO  (HomePage.java:86) - Items are: {
+CONTACT LENSES
+} 
+2024-04-04T16:34:45,663 [main] INFO  (HomePage.java:86) - Items are: {
+BRANDS
+} 
+2024-04-04T16:34:45,663 [main] INFO  (HomePage.java:86) - Items are: {
+LENSES
+} 
+2024-04-04T16:34:45,663 [main] INFO  (HomePage.java:86) - Items are: {
+OFFERS
+} 
+2024-04-04T16:34:45,669 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T16:47:34,866 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T16:55:17,428 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T16:55:17,433 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T16:55:17,433 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T16:55:17,433 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T16:55:26,449 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T16:55:26,450 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T16:55:31,470 [main] INFO  (HomePage.java:107) - Clicking on sunglasses link on Home Page
+2024-04-04T16:55:31,530 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T16:55:31,530 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T16:55:36,616 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T17:01:50,036 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T17:01:50,044 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:01:50,044 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:01:50,044 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T17:01:59,134 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:01:59,135 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:02:04,150 [main] INFO  (HomePage.java:107) - Clicking on sunglasses link on Home Page
+2024-04-04T17:02:04,210 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:02:04,210 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:02:09,265 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T17:03:50,313 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T17:03:50,316 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:03:50,316 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:03:50,317 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T17:03:59,128 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:03:59,128 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:04:04,140 [main] INFO  (HomePage.java:107) - Clicking on sunglasses link on Home Page
+2024-04-04T17:04:04,203 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:04:04,203 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:04:09,252 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T17:04:31,279 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T17:04:31,286 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:04:31,286 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:04:31,286 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T17:04:39,983 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:04:39,983 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:04:44,990 [main] INFO  (HomePage.java:107) - Clicking on sunglasses link on Home Page
+2024-04-04T17:04:45,059 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:04:45,059 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:04:50,115 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T17:05:01,167 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T17:05:01,172 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:05:01,172 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:05:01,173 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T17:05:10,070 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:05:10,070 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:05:15,082 [main] INFO  (HomePage.java:107) - Clicking on sunglasses link on Home Page
+2024-04-04T17:05:15,142 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:05:15,142 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:05:20,194 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T17:08:41,329 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T17:08:41,335 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:08:41,335 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:08:41,336 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T17:08:50,081 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:08:50,081 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:08:55,097 [main] INFO  (HomePage.java:107) - Clicking on sunglasses link on Home Page
+2024-04-04T17:08:55,162 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:08:55,162 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:09:00,213 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T17:13:59,292 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T17:13:59,297 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:13:59,298 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:13:59,298 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T17:14:08,290 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:14:08,290 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:14:13,309 [main] INFO  (HomePage.java:107) - Clicking on sunglasses link on Home Page
+2024-04-04T17:14:13,371 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:14:13,372 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:14:18,431 [main] INFO  (Driver.java:76) - Closing the browser
+2024-04-04T17:15:36,475 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T17:15:36,481 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:15:36,481 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:15:36,481 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T17:15:45,103 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:15:45,103 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:15:50,122 [main] INFO  (HomePage.java:107) - Clicking on sunglasses link on Home Page
+2024-04-04T17:15:50,169 [main] INFO  (ConfigurationReader.java:57) - Getting the property key {browserType} from the property file
+2024-04-04T17:15:50,169 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T17:15:55,223 [main] INFO  (Driver.java:76) - Closing the browser
