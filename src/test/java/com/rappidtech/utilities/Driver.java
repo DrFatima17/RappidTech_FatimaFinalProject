@@ -78,7 +78,7 @@ public class Driver {
             driver.quit();
             driver = null; // make the driver equal to null
         }
-
+//driver.manage().timeouts().getPageLoadTimeout().withSeconds(5);
     }
 
 }

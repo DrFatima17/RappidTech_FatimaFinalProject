@@ -1,6 +1,7 @@
 package com.rappidtech.pages;
 
 import com.rappidtech.utilities.Driver;
+import com.rappidtech.utilities.SeleniumUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -33,7 +34,8 @@ public class HomePage {
 
     @FindBy(xpath = "//a[@title='Glasses']")
     WebElement glassesLink;
-    @FindBy(xpath = "//a[@title='Sunglasses']")
+    @FindBy//(xpath = "//a[@title='Sunglasses']")
+            (xpath = "//a[@id='all-sunglasses']")
     WebElement sunglassesLink;
     @FindBy(xpath = "//a[@title='Contact Lenses']")
     WebElement contactlensesLink;
@@ -105,7 +107,9 @@ public class HomePage {
 
     public void clickOnSunglassesLinkOnHomePage(){
         logger.info("Clicking on sunglasses link on Home Page");
+        SeleniumUtils.waitForVisibilityOfElement(sunglassesLink);
         sunglassesLink.click();
+
 
     }
     public void clickOnWomensSunGlassesLinkOnHomePage(){
