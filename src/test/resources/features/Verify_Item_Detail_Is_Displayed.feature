@@ -1,4 +1,4 @@
-@smoke
+
 Feature:Verify Item details
 
   Scenario: Verify item details are displayed on clicking the item

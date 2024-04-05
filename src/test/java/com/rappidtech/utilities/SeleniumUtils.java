@@ -297,5 +297,8 @@ public class SeleniumUtils {
         Select selectItem = new Select(element);
         selectItem.selectByIndex(index);
     }
+    public static void acceptCookies(){
+        Driver.getDriver().findElement(By.xpath("//button[@id='truste-consent-button']")).click();
+    }
 
 }

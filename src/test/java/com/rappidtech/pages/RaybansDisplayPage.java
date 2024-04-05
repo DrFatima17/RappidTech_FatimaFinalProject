@@ -1,6 +1,7 @@
 package com.rappidtech.pages;
 
 import com.rappidtech.utilities.Driver;
+import com.rappidtech.utilities.SeleniumUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -29,6 +30,9 @@ public class RaybansDisplayPage {
         @FindBy(xpath = "//div[@class='text-normal data-price']")
         WebElement priceLabel;
 
+        @FindBy(xpath = "//button[@class='btn btn-lg primary btn-addToCart center-block']")
+        WebElement addToCartButton;
+
         //===========================methods/functions==============================
 
     public boolean isBrandLabelDisplayed(){
@@ -54,6 +58,11 @@ public class RaybansDisplayPage {
     public boolean isPriceLabelDisplayed(){
         logger.info("Checking if element is displayed");
         return  priceLabel.isDisplayed();
+    }
+    public void clickOnAddToCartButton(){
+        logger.info("Clicking on Add to Cart Button");
+        SeleniumUtils.scrollToElementUsingJavaScriptExecutor(addToCartButton);
+        addToCartButton.click();
     }
 
     }
