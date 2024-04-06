@@ -61,15 +61,15 @@ public class ContinueAsGuestPage {
         return continueAsGuestLabel.isDisplayed();
     }
 
-    public ArrayList<String> addvaluesToFieldsInContinueAsGuestPage(List<String> listOfFileds) {
+    public ArrayList<String> addvaluesToFieldsInContinueAsGuestPage(List<String> listOfFields) {
         logger.info("adding values to fields in continue as guest page");
         ArrayList<String> values = new ArrayList<>();
-        for (int i = 0; i < listOfFileds.size(); i++) {
-            if (listOfFileds.get(i).equals(firstNameField)) {
+        for (int i = 0; i < listOfFields.size(); i++) {
+            if (listOfFields.get(i).equals(firstNameField)) {
                 firstNameField.sendKeys("FirstName");
-            } else if (listOfFileds.get(i).equals(lastNameField)) {
+            } else if (listOfFields.get(i).equals(lastNameField)) {
                 lastNameField.sendKeys("LastName");
-            } else if (listOfFileds.get(i).equals(emailField)) {
+            } else if (listOfFields.get(i).equals(emailField)) {
                 emailField.sendKeys("email12345@gmail.com");
             }
 
