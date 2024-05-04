@@ -29,10 +29,15 @@ public class ContinueAsGuestPage {
     WebElement firstNameField;
     @FindBy(xpath = "//input[@placeholder='Enter your last name']")
     WebElement lastNameField;
-    @FindBy(xpath = "//input[@placeholder='Enter your email address']")
+    @FindBy(xpath = "//input[@placeholder='Enter your email address'][@id='emailAddr']")
+   //"(//input[@placeholder='Enter your email address'])[1]"
     WebElement emailField;
-    @FindBy(xpath = "(//input[@id='continueGuestBtn'])[1]")
-    WebElement continueAsGuestButton;
+    @FindBy(xpath = "//div[@class='col-sm-12 col-xs-12 continueBtnWrap']")
+   //(//input[@id='continueGuestBtn'])[1]
+    WebElement continueAsGuestButtonInGuestCheckoutPage;
+
+    @FindBy(xpath = "//h4[@class=\'no-outline hidden-xs\']")
+    WebElement orderSummaryLabel;
 
 
     //======================methods=============================================
@@ -61,25 +66,38 @@ public class ContinueAsGuestPage {
         return continueAsGuestLabel.isDisplayed();
     }
 
-    public ArrayList<String> addValuesToFieldsInContinueAsGuestPage(List<String> listOfFields) {
-        logger.info("adding values to fields in continue as guest page");
-        ArrayList<String> values = new ArrayList<>();
-        for (int i = 0; i < listOfFields.size(); i++) {
-            if (listOfFields.get(i).equals(firstNameField)) {
-                firstNameField.sendKeys("FirstName");
-            } else if (listOfFields.get(i).equals(lastNameField)) {
-                lastNameField.sendKeys("LastName");
-            } else if (listOfFields.get(i).equals(emailField)) {
-                emailField.sendKeys("email12345@gmail.com");
-            }
-
-        }
-        return values;
+//    public ArrayList<String> addValuesToFieldsInContinueAsGuestPage(List<String> listOfFields) {
+//        logger.info("adding values to fields in continue as guest page");
+//        ArrayList<String> values = new ArrayList<>();
+//        for (int i = 0; i < listOfFields.size(); i++) {
+//            if (listOfFields.get(i).equals(firstNameField)) {
+//                firstNameField.click();
+//                firstNameField.sendKeys("FirstName");
+//            } else if (listOfFields.get(i).equals(lastNameField)) {
+//                lastNameField.click();
+//                lastNameField.sendKeys("LastName");
+//            } else if (listOfFields.get(i).equals(emailField)) {
+//                emailField.click();
+//                emailField.sendKeys("email12345@gmail.com");
+//            }
+//        }
+//        return values;
+//    }
+    public void clickOnConitnueAsGuestButtonInGuestPage(){
+        SeleniumUtils.scrollToElementUsingJavaScriptExecutor(continueAsGuestButtonInGuestCheckoutPage);
+        continueAsGuestButtonInGuestCheckoutPage.click();
     }
 
 
-    public void addFirstName(){
-
+    public void addValuesToFieldsInContinueAsGuestPage(List<String> expectedItems) {
+        firstNameField.sendKeys("FirstName");
+        lastNameField.sendKeys("LastName");
+        emailField.sendKeys("email12345@gmail.com");
+    }
+    public boolean isOrderSummaryLabelDisplayed() {
+        logger.info("Check is the order summary label is displayed or not");
+        SeleniumUtils.scrollToElementUsingJavaScriptExecutor(orderSummaryLabel);
+        return orderSummaryLabel.isDisplayed();
     }
 }
 

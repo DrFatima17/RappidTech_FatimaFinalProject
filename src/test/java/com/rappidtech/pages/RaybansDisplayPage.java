@@ -18,7 +18,7 @@ public class RaybansDisplayPage {
         PageFactory.initElements(Driver.getDriver(), this);}
         @FindBy(xpath = "//span[@class='data-brand']")
         WebElement brandLabel;
-
+// //span[@class='data-brand]
         @FindBy(xpath = "//span[@class='data-color']")
         WebElement colorframeLabel;
         @FindBy(xpath = "//span[@class='p-name data-name']")
@@ -37,6 +37,7 @@ public class RaybansDisplayPage {
 
     public boolean isBrandLabelDisplayed(){
         logger.info("Checking if element is displayed");
+        SeleniumUtils.waitForVisibilityOfElement(brandLabel);
         return  brandLabel.isDisplayed();
     }
     public boolean isColorFrameLabelDisplayed(){

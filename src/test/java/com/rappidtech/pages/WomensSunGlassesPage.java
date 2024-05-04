@@ -33,6 +33,7 @@ public class WomensSunGlassesPage {
 
     public boolean isWomensSunglassesLabelDisplayed(){
         logger.info("Checking if Label is displayed  on Women's Sunglasses Page");
+        SeleniumUtils.waitForVisibilityOfElement(womensSunGlassesLogo);
         return womensSunGlassesLogo.isDisplayed();
     }
 
