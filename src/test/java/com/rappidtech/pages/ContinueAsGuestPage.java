@@ -61,7 +61,7 @@ public class ContinueAsGuestPage {
         return continueAsGuestLabel.isDisplayed();
     }
 
-    public ArrayList<String> addvaluesToFieldsInContinueAsGuestPage(List<String> listOfFields) {
+    public ArrayList<String> addValuesToFieldsInContinueAsGuestPage(List<String> listOfFields) {
         logger.info("adding values to fields in continue as guest page");
         ArrayList<String> values = new ArrayList<>();
         for (int i = 0; i < listOfFields.size(); i++) {
@@ -75,6 +75,11 @@ public class ContinueAsGuestPage {
 
         }
         return values;
+    }
+
+
+    public void addFirstName(){
+
     }
 }
 
